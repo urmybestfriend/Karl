@@ -111,8 +111,6 @@ function rowContent(_index, row) {
 export default function DataTable(data) {
   return (
     <Paper style={{ height: 700, width: '100%' }}>
-        
-    {console.log(data)}
       <TableVirtuoso
         data={data.tabledata}
         components={VirtuosoTableComponents}
